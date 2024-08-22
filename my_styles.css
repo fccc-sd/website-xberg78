@@ -7,7 +7,12 @@ h2 {
     color:cyan;
 }
 
+h3 {
+    color:mediumvioletred;
+}
+
 p {
     color:blueviolet;
     text-indent: 25px;
 }
+
