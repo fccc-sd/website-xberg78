@@ -3,7 +3,16 @@ header {
 }
 
 #linkParagraph {
-    font-style: italic
+    font-style: italic;
+}
+
+article {
+    text-align: center;
+}
+
+
+footer {
+    text-align: center;
 }
 
 h1 {
