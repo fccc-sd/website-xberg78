@@ -1,3 +1,7 @@
+header {
+    text-align: center;
+}
+
 h1 {
     color:greenyellow;
     font: normal 2.5em/1.25em normal Georgia, 'Times New Roman', Times, serif;
@@ -25,6 +29,10 @@ p {
     font-size: 0.85em;
     font-style: normal;
     font-weight: normal;
+}
+
+#linkParagraph {
+    font-style: italic
 }
 
 h2,
