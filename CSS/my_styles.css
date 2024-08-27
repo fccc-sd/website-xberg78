@@ -1,18 +1,37 @@
 h1 {
     color:greenyellow;
+    font: normal 2.5em/1.25em normal Georgia, 'Times New Roman', Times, serif;
+
+    
 }
 
 h2 {
     color:cyan;
+    font-size: 1.875em;
+    font-style: italic;
+    font-weight: bold;
 }
 
 h3 {
     color:mediumvioletred;
+    font-size: 1.45em;
+    font-style: italic;
+    font-weight: normal;
 }
 
 p {
     color:blueviolet;
     text-indent: 25px;
+    font-size: 0.85em;
+    font-style: normal;
+    font-weight: normal;
+}
+
+h2,
+h3,
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.25em;
 }
 
 body {
