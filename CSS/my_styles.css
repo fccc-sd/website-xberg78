@@ -46,7 +46,9 @@ p {
     font-weight: normal;
 }
 
-
+li {
+    color:blueviolet;
+}
 h2,
 h3,
 h6,
