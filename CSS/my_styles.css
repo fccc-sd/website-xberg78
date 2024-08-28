@@ -48,7 +48,7 @@ p {
 
 li {
     color:blueviolet;
-    break-after: always;
+    margin-bottom: 5px;
 }
 
 h2,
