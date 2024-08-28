@@ -16,6 +16,10 @@ footer {
     text-align: center;
 }
 
+main {
+    line-height: 1.25em;
+}
+
 h1 {
     color:greenyellow;
     font: normal 2.5em/1.25em normal Georgia, 'Times New Roman', Times, serif;
