@@ -55,6 +55,12 @@ p em{
     color:steelblue;
 }
 
+ul {
+    list-style-type: disc;
+    list-style-position: outside;
+    list-style-image: url(star.png) ;
+}
+
 li {
     color:blueviolet;
 }
