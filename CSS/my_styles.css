@@ -70,3 +70,12 @@ p {
 body {
     background-color: black;
 }
+
+#memoryLane{
+    background-size: 300px 300px;
+    background-image: url(human-brain-header.jpg) ;
+}
+
+#yellowBrickRoad{
+    background-image: url(yellowbrickroad.jpg) ;
+}
