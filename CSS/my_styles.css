@@ -61,6 +61,22 @@ ul {
     list-style-image: url(star.png) ;
 }
 
+nav a:link{
+    color:rgb(48, 0, 68);
+}
+
+nav a:visited{
+    color:rgb(48, 0, 68);
+}
+
+nav a:hover{
+    color:chocolate;
+}
+
+nav a:active{
+    color:deeppink;
+}
+
 li {
     color:blueviolet;
 }
@@ -71,6 +87,18 @@ h6,
 p {
     font-family: Georgia, 'Times New Roman', Times, serif;
     line-height: 1.25em;
+}
+
+nav{
+    background-color:rgb(255, 80, 80);
+    line-height: 200%;
+    display: block;
+}
+
+nav li{
+    display: inline;
+    padding-right: 40px;
+    list-style-type: none;
 }
 
 body {
