@@ -3,10 +3,6 @@ header {
     line-height: normal;
 }
 
-#linkParagraph {
-    font-style: italic;
-}
-
 article{
     text-align: center;
 }
@@ -41,6 +37,7 @@ h3{
 
 h6{
     color:coral;
+    margin-top: 100px;
 }
 
 p{
@@ -90,7 +87,7 @@ p{
 }
 
 nav{
-    background-color:rgb(255, 80, 80);
+    background: url(neon-background.avif) rgb(255, 80, 80) center center repeat;
     line-height: 200%;
     display: block;
 }
@@ -128,6 +125,16 @@ body{
 }
 
 iframe{
+    border: double thick rgb(165, 255, 75);
     width: 815px;
     height: 600px;
+}
+
+img.float{
+    float: right;
+    margin: 10px;
+}
+
+table{
+    margin: 20px;
 }
