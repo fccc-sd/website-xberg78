@@ -3,47 +3,44 @@ header {
     line-height: normal;
 }
 
-#linkParagraph {
-    font-style: italic;
-}
-
-article {
+article{
     text-align: center;
 }
 
 
-footer {
+footer{
     text-align: center;
 }
 
-main {
+main{
     line-height: 1.25em;
 }
 
-h1 {
+h1{
     color:greenyellow;
     font: normal 2.5em/1.25em normal Georgia, 'Times New Roman', Times, serif;
 }
 
-h2 {
+h2{
     color:cyan;
     font-size: 1.875em;
     font-style: italic;
     font-weight: bold;
 }
 
-h3 {
+h3{
     color:mediumvioletred;
     font-size: 1.45em;
     font-style: italic;
     font-weight: normal;
 }
 
-h6 {
+h6{
     color:coral;
+    margin-top: 100px;
 }
 
-p {
+p{
     color:blueviolet;
     text-indent: 25px;
     font-size: 0.85em;
@@ -55,24 +52,110 @@ p em{
     color:steelblue;
 }
 
-ul {
+ul{
     list-style-type: disc;
     list-style-position: outside;
     list-style-image: url(star.png) ;
 }
 
-li {
+nav a:link{
+    color:rgb(48, 0, 68);
+}
+
+nav a:visited{
+    color:rgb(48, 0, 68);
+}
+
+nav a:hover{
+    color:chocolate;
+}
+
+nav a:active{
+    color:deeppink;
+}
+
+li{
     color:blueviolet;
 }
 
 h2,
 h3,
 h6,
-p {
+p{
     font-family: Georgia, 'Times New Roman', Times, serif;
     line-height: 1.25em;
 }
 
-body {
+nav{
+    background: url(neon-background.avif) rgb(255, 80, 80) center center repeat;
+    line-height: 200%;
+    display: block;
+}
+
+nav li{
+    display: inline;
+    padding-right: 40px;
+    list-style-type: none;
+}
+
+table{
+    border: solid 2px chartreuse;
+    border-collapse: collapse;
+}
+
+tr, td, th{
+    border: solid 2px chartreuse;
+    padding: 3px;
+    text-align: center;
+    background-color: rgb(183, 253, 143);
+}
+
+th{
+    background-color: rgb(200, 116, 255);
+}
+
+caption{
+    caption-side: top;
+    font-weight: bold;
+    margin: 5px;
+}
+
+body{
     background-color: black;
+}
+
+iframe{
+    border: double thick rgb(165, 255, 75);
+    width: 815px;
+    height: 600px;
+}
+
+img.float{
+    float: right;
+    margin: 10px;
+}
+
+table{
+    margin: 20px;
+}
+
+input{
+    color:darkorange;
+}
+
+input[type=radio], 
+input[type=checkbox]{
+    margin-left: 25px;
+}
+
+h3.formhead{
+    margin-left: 25px;
+}
+
+input.specialinstructions{
+    width: 220px;
+}
+
+label{
+    color: aliceblue;
 }
