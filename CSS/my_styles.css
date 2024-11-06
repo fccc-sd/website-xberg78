@@ -155,3 +155,7 @@ h3.formhead{
 input.specialinstructions{
     width: 220px;
 }
+
+label{
+    color: aliceblue;
+}
