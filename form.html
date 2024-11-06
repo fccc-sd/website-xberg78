@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="This is a page for html forms">
+        <meta name="keywords" content="Forms">
+        <title>Forms</title>
+        <link rel="stylesheet" href="CSS/my_styles.css">
+    </head>
+
+    <body>
+        
+        <nav>
+            <ul>
+                <li><a href="index.html" title="Page 1: Home Page">Home Page</a></li>
+                <li><a href="personal_info.html" title="Page 2: My Life">My Life</a></li>
+                <li><a href="interests.html" title="Page 3: My Interests">My Interests</a></li>
+                <li><a href="table.html" title="Page 4: CCP Options">CCP Options</a></li>
+                <li><a href="game.html" title="Page 5: My Games">My Games</a></li>
+                <li><a href="form.html" title="Forms">Forms Assignment Page</a></li>
+            </ul>
+        </nav>
+
+        <form id="Pizza Order" action="my_order.php" method="post">
+
+            <h3 class="formhead">Order Details</h3>
+            <p>Size:</p>
+            <input type="radio" name="size" id="small">
+            <label for="small">Small</label>
+            <br>
+            <input type="radio" name="size" id="medium">
+            <label for="small">Medium</label>
+            <br>
+            <input type="radio" name="size" id="large">
+            <label for="small">Large</label>
+            <br>
+            <input type="radio" name="size" id="x-large">
+            <label for="small">X-Large</label>
+            <br>
+
+            <p>Toppings:</p>
+            <input type="checkbox" name="sausage" id="sausage">
+            <label for="sausage">Sausage</label>
+            <br>
+            <input type="checkbox" name="meatballs" id="meatballs">
+            <label for="meatballs">Meatballs</label>
+            <br>
+            <input type="checkbox" name="pepperoni" id="pepperoni">
+            <label for="pepperoni">Pepperoni</label>
+            <br>
+            <input type="checkbox" name="greenpeppers" id="greenpeppers">
+            <label for="greenpeppers">Green Peppers</label>
+            <br>
+            <input type="checkbox" name="bananapeppers" id="bananapeppers">
+            <label for="bananapeppers">Banana Peppers</label>
+
+            <p>Special Instructions:</p>
+            <p><input type="text" name="specialinstructions" id="specialinstructions" class="specialinstructions"></p>
+
+            <h3 class="formhead">Personal Information</h3>
+
+            <p>Name:</p>
+            <p><input type="text" name="name" id="name"></p>
+
+            <p>Address:</p>
+            <p><input type="text" name="address" id="address"></p>
+
+            <p>Phone Number:</p>
+            <p><input type="tel" name="phonenumber" id="phonenumber"></p>
+
+            <p><input id="submit" type="submit" value="Place Order"></p>
+            <p><input type="reset" id ="resetorder" value="Reset"></p>
+
+        </form>
+
+        <footer>
+            <h6>Copyright &copy; 2024 Xander Berger</h6>
+        </footer>
+
+    </body>
+
+</html>

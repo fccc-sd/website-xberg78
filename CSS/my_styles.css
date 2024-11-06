@@ -138,3 +138,20 @@ img.float{
 table{
     margin: 20px;
 }
+
+input{
+    color:darkorange;
+}
+
+input[type=radio], 
+input[type=checkbox]{
+    margin-left: 25px;
+}
+
+h3.formhead{
+    margin-left: 25px;
+}
+
+input.specialinstructions{
+    width: 220px;
+}
