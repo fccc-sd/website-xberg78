@@ -1,5 +1,6 @@
 *
 {
+    box-sizing: border-box;
     margin: 0;
 }
 
@@ -10,21 +11,23 @@ body
     background-repeat: no-repeat;
 }
 
-header
+.row
 {
-    margin-top: 10px;
-    text-indent: 40px;
-    text-align: left;
+    display: flex;
 }
 
-article
+.column
 {
-    text-align: center;
+    padding: 40px;
+    flex: 50%;
 }
-
 
 footer
 {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
     text-indent: 40px;
     text-align: left;
 }
@@ -33,7 +36,6 @@ ul
 {
     list-style-type: disc;
     list-style-position: outside;
-    list-style-image: url(star.png) ;
 }
 
 nav
@@ -70,15 +72,11 @@ h1
 h2
 {
     font-size: 1.875em;
-    font-style: italic;
-    font-weight: bold;
 }
 
 h3
 {
     font-size: 1.45em;
-    font-style: italic;
-    font-weight: normal;
 }
 
 h6
@@ -89,8 +87,6 @@ h6
 p
 {
     font-size: 0.85em;
-    font-style: normal;
-    font-weight: normal;
 }
 
 a
