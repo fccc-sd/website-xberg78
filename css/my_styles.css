@@ -7,7 +7,7 @@
 body
 {
     background-image: url(images/open-book-background.jpg);
-    background-position: center;
+    background-position: center center;
     background-repeat: no-repeat;
 }
 
@@ -19,7 +19,12 @@ body
 .column
 {
     padding: 40px;
-    flex: 50%;
+    flex: 45%;
+}
+
+.separator
+{
+    flex: 10%;
 }
 
 footer
@@ -77,11 +82,6 @@ h2
 h3
 {
     font-size: 1.45em;
-}
-
-h6
-{
-    margin-top: 100px;
 }
 
 p
