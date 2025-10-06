@@ -8,6 +8,8 @@
         <meta name="keywords" content="Dnd, DND, DnD, D&d, D&D, Dungeons, Dragons, Dungeons and Dragons, dungeons and dragons, spells, spellcasters, wizard, bard, warlock, artificer">
         <title>Daedalon Spellbook</title>
         <link rel="stylesheet" href="css/my_styles.css">
+        <link rel="stylesheet" href="css/jquery-ui.min.css">
+        <link rel="stylesheet" href="css/jquery-ui.structure.min.css">
     </head>
 
     <body>
@@ -26,55 +28,59 @@
                 <h1><strong>Chapter 2: Schools</strong></h1>
                 <h4>Take your seat, school's in session!</h4>
                 <br>
-
-                <h3>Abjuration</h3>
-                <p>Don't worry if you aren't proficient in shields, you can still make one out of magic.
+                
+                <div id="accordion-1">
+                    <h3>Abjuration</h3>
+                    <p>Don't worry if you aren't proficient in shields, you can still make one out of magic.
                     Abjuration is a school of magic that can be used to protect yourself, allies, 
                     and even enemies if you'd like an extra challenge, or just enjoy causing chaos.
                     Shield can bring you Sanctuary if you make sure to save some spell slots!
-                </p>
-                <h3>Conjuration</h3>
-                <p>Lonely and looking for a friend? Well, just summon one!
+                    </p>
+                    <h3>Conjuration</h3>
+                    <p>Lonely and looking for a friend? Well, just summon one!
                     Conjuration is the school of summons, as it allows you to bring forth objects and animalistic allies you don't have with you.
                     This school is heavily favored by Druids and Rangers, as you're able to bring out furry friends you've made along the way to help you in battle.
                     Though, you can also summon ice, fire, vines, and other elements of nature.
-                </p>
-                <h3>Divination</h3>
-                <p>Confused Clerics love getting advice from their gods, and thus love Divination!
+                    </p>
+                    <h3>Divination</h3>
+                    <p>Confused Clerics love getting advice from their gods, and thus love Divination!
                     Divination is a great school, as it allows you to either give or recieve wisdom from others.
                     Though, it can also be used to see an opponent's attack and use it against them.
-                </p>
-                <h3>Enchantment</h3>
-                <p>Enchantment is not what you may think. 
+                    </p>
+                    <h3>Enchantment</h3>
+                    <p>Enchantment is not what you may think. 
                     While most believe it means buffing your allies and your weapons, Enchantment is a school of torture.
                     It can cause fits of laughter, belittle someone so badly they go weeping to their matons, and even force them into a, suffice to say, awkward situation thanks to Charm Person.
-                </p>
+                    </p>
+                </div>
             </div>
             <br>
 
             <div class="separator"></div>
 
             <div class="column">
-                <h3>Evocation</h3>
-                <p>No, for the last time, Fireball is not the only spell you should know!
+                <div id="accordion-2">
+                    <h3>Evocation</h3>
+                    <p>No, for the last time, Fireball is not the only spell you should know!
                     Ugh, anyways, Evocation is the school of attacks. Bolts of lightning, even if they're very very frightening, bolts of fire, and blasts galore!
                     But, yes, Fireball counts too. All those spells you see being sent out across a distance, normally with bolt in the name, are Evocation.
-                </p>
-                <h3>Illusion</h3>
-                <p>Hear that? No? Well, it must be an illusionist then!
+                    </p>
+                    <h3>Illusion</h3>
+                    <p>Hear that? No? Well, it must be an illusionist then!
                     Illusion is the school of trickery.
                     If you want your party's rogue to sneak past some guards, use a Minor Illusion.
                     That option is way easier than throwing a penny, and its cheaper!
-                </p>
-                <h3>Necromancy</h3>
-                <p>Missing a loved one? Just bring them back <em>from the graaaaaave</em>
+                    </p>
+                    <h3>Necromancy</h3>
+                    <p>Missing a loved one? Just bring them back <em>from the graaaaaave</em>
                     The Necromancy school has spells that raise the dead, allow you to communicate with them, and sap away the life of others.
-                </p>
-                <h3>Transmutation</h3>
-                <p>If your party member has been turned into a sheep, you may be able to recieve compensation.
+                    </p>
+                    <h3>Transmutation</h3>
+                    <p>If your party member has been turned into a sheep, you may be able to recieve compensation.
                     Transmutation is the school of alterations. Change yourself, change others, change objects.
                     So, watch out if you hear that someone can cast Polymorph, or else you may be the sheep.
-                </p>
+                    </p>
+                </div>
             </div>
         </div>
             
@@ -82,7 +88,9 @@
         <footer>
             <h6>Copyright &copy; 2025 Daedalus Bector</h6>
         </footer>
-
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+        <script src="js/jquery-ui.min.js"></script>
+        <script src="js/daedalon.js"></script>
     </body>
 
 </html>
